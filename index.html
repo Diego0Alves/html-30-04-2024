@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <!-- CSS -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+       <title>html-30-04-2024</title>
+</head>
+<body>
+    <div class="card-panel teal lighten-2">This is a card panel with a teal lighten-2 class</div>
+    <div class="row ">
+        <div class="col s12 m4 l12  cyan accent-1">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores soluta repellat necessitatibus reiciendis perspiciatis natus aspernatur, qui repudiandae minima perferendis, vero quisquam laudantium illum sit porro impedit nesciunt eius fugit.
+        </div>
+        <div class="col s12 m4 l6 red">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus iure sint dolorem eos ut asperiores a mollitia minima excepturi hic et eveniet ipsam aperiam ea rerum, incidunt odit esse laborum.
+        </div>
+        <div class="col s12 m4 l6 orange">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aliquam quos iste voluptate laudantium, dolor repellendus ut, dolorem voluptatum animi sed nesciunt officiis culpa cupiditate cum? Dolores fuga nisi provident?
+        </div>
+    </div>
+    <div class="row container">
+        <img 
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMUAAAEACAMAAAA0tEJxAAAAbFBMVEX///8AAACpqam5ubl3d3cGBgbLy8seHh7k5OTn5+f5+fne3t7r6+vx8fH8/Pzi4uLT09MYGBhtbW2Xl5fHx8cNDQ2GhoaMjIyoqKjQ0NB/f38xMTE6OjqysrKUlJRlZWWfn59XV1dPT08mJiZEK1ZpAAACqUlEQVR4nO3di04aQQCF4cULzM5lZ0EUV6Vi+/7v2AF7sTBJM7TsnG7/T9QAxpw/JGBM2G0aAAAAAAAAZLnVzeU8jVUxn13Q/SQqFlRQQQUVVFBBBRVUUEEFFVRQQQUVVPwjFcuxKobZ4pvl7V/afv/9Ny6ex6r4qOvssH06f/7LZtvbrqsx/YRdnfkQzGsv/9XunIhnW3v2sZszKkLt0Se68ojH2pszPhVX1F6c05dGrGovzrGlFbvai7MWhRV97cFZr4UVpvbgrIfCCrkXi4NNYUXtvXmlT7W19+aV/hFSe2/eNCoeyyJua+/Nm0bFFRUyqNBBhQ4qdFChgwodVOigQgcVOqjQQYUOKnRQoYMKHVTooEIHFTqo0EGFDip0UKGDCh1U6KBCBxU6qNBBhQ4qdFChgwodVOigQgcVOqjQQYUOKnRQoYMKHVTooEIHFTqo0EGFDip0UKGDCh1U6KBCBxU6qNBBhQ4qdFChYxoVhcfhnMYxUUUrpnF82rtJVJQefVrjpBfHSo8ErnfGhb23wgpXe3BWYcRsXXtwjimt2NRenLMtrXipvThnWVoxEzu1zV7p82yylDtfQelL3sFC62lq+HxORLKqdyoPG8276Ibrq93DW+lZSD76srrbrp35aayK9R+M/r2xKjgzHRVUUEEFFVRQQQUVVFBBBRVUUEEFFWNWTOO/an57fUFjVQAAAAAAAAAAAAB1dYfL8U3ynOubJuzfH+PTZ4j7S2Pn7sf7+qwL+h2t7110tnd2bt+/G+e6wcTWpQ/fRu9icG2MIf1o66JxvfG1R59Ik1zTdi74vnO9Nd6bwXZDE9rB2zR7aKIJ6QGztumb4LwLvY21R5/woUlrQxtC+pIubbrirWlsm64Fv7/lcG/beZvuS7eZoPdY/O++AgTjRFlRCvNkAAAAAElFTkSuQmCC" 
+        alt="img" style="width: 100px; height: 100px;" class="circle">
+    </div>
+    <a class="waves-effect waves-light btn">button</a>
+    <a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>button</a>
+    <a class="waves-effect waves-light btn"><i class="material-icons right">cloud</i>button</a>
+    <div class="input-field col s12">
+        <select>
+          <option value="" disabled selected>Choose your option</option>
+          <option value="1">Option 1</option>
+          <option value="2">Option 2</option>
+          <option value="3">Option 3</option>
+        </select>
+        <label>Materialize Select</label>
+      </div>
+
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script>
+          $(document).ready(function() {
+           $('select').material_select();
+          });
+    </script>
+</body>
+</html>
